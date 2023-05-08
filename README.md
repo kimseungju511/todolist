@@ -12,7 +12,7 @@ E.g, KDT0_ParkYoungWoong
 ```
 
 1. 현재 저장소를 로컬에 클론(Clone)합니다.
-1. 자신의 본명으로 브랜치를 생성합니다.(구분 가능하도록 본명을 꼭 파스칼케이스로 표시하세요, `git branch KDT0_ParkYoungWoong`)
+1. 자신의 본명으로 브랜치를 생성합니다.(구분 가능하도록 본명을 꼭 파스칼케이스로 표시하세요, `git branch KDTX_ParkYoungWoong`)
 1. 자신의 본명 브랜치에서 과제를 수행합니다.
 1. 과제 수행이 완료되면, 자신의 본명 브랜치를 원격 저장소에 푸시(Push)합니다.(`main` 브랜치에 푸시하지 않도록 꼭 주의하세요, `git push origin KDTX_ParkYoungWoong`)
 1. 저장소에서 `main` 브랜치를 대상으로 Pull Request 생성하면, 과제 제출이 완료됩니다!(E.g, `main` <== `KDTX_ParkYoungWoong`)
@@ -67,7 +67,7 @@ async function createTodo() {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
-      'apikey': 'KDT5_nREmPe9B',
+      'apikey': 'KDT5_nREmPe9B', // KDT 5기 APIKEY 입니다!
       'username': 'KDT5_ParkYoungWoong'
     },
     body: JSON.stringify({

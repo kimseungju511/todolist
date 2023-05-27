@@ -1,0 +1,63 @@
+h1 {
+  background-color: yellow;
+  border: 10px solid black;
+  margin-bottom: 20px;
+  width: 50%;
+}
+input[type="text"] {
+  width: 500px;
+  padding: 5px;
+  margin-right: 10px;
+}
+button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  color: blue;
+  background-color: #fff;
+}
+.delete {
+  margin: 0 0 0 50px;
+}
+li {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 30px;
+  list-style-type: none;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+li input[type="text"] {
+  padding: 5px;
+  width: 50%;
+}
+li button {
+ width: 100%;
+}
+li .date {
+  display: flex;
+  flex-direction: column;
+}
+.loading {
+  text-align: center;
+  font-style: italic;
+}
+section {
+  flex-direction: row;
+  display: flex;
+}
+section div {
+  width: 50%;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+.btngroup {
+  flex-direction: row;
+  display: flex;
+  gap: 16px;
+}
